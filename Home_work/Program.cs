@@ -10,7 +10,7 @@ namespace Home_work
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Задание 1");
+
 
 
         }
