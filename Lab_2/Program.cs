@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 namespace Lab_2
 {
     public enum AccountType { Actual, Savings }
-    public enum ВУЗ { КГУ, КАИ, КХТИ}
-    public struct employee
-    {
-        public string name;
-        public ВУЗ university;
-    }
     public struct BankAccount
     {
         public long number;
         public decimal balance;
         public AccountType type;
+    }
+    public enum ВУЗ { КГУ, КАИ, КХТИ}
+    public struct employee
+    {
+        public string name;
+        public ВУЗ university;
     }
     class Program
     {

@@ -74,8 +74,11 @@ namespace Home_work
 
             Console.WriteLine("Задание A1.8");
             int k = Convert.ToInt32(Console.ReadLine());
+            int num1 = (k / 3) % 10;
+            int num2 = 1;
+            int num3 = (k + 1) / 30;
+            Console.WriteLine("{0} {1} {2}", num1, num2, num3);
             
-
             Console.WriteLine("Задание 1.9");
             bool A = true;
             bool B = false;
